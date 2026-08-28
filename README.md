@@ -27,7 +27,7 @@ npm start
 The service will start on port 3000 and display:
 ```
 LEGENDO SYNC active on port 3000
-Connected to PayPal: Hhnonstop314@gmail.com
+Connected to PayPal: 8limbuzz@gmail.com
 ```
 
 ## Core Features
@@ -76,7 +76,7 @@ NODE_ENV=production
 ## Connected Services
 
 - **Website:** https://foreverfit-zpjz5xxm.manus.space
-- **PayPal Business:** Hhnonstop314@gmail.com
+- **PayPal Business:** 8limbuzz@gmail.com
 
 ## Development
 
