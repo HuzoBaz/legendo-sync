@@ -6,14 +6,14 @@ const app = express();
 app.use(express.json());
 
 // LEGENDO SYNC - PayPal Business Configuration
-// Connected to: Hhnonstop314@gmail.com
+// Connected to: 8limbuzz@gmail.com
 paypal.configure({
     'mode': 'live', // Switch to 'sandbox' for testing
     'client_id': process.env.PAYPAL_CLIENT_ID || 'your_paypal_client_id',
     'client_secret': process.env.PAYPAL_CLIENT_SECRET || 'your_paypal_client_secret'
 });
 
-const PAYPAL_EMAIL = 'Hhnonstop314@gmail.com';
+const PAYPAL_EMAIL = '8limbuzz@gmail.com';
 
 app.post('/create-payment', (req, res) => {
     const { productName, price } = req.body;
